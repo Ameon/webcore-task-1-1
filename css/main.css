@@ -27,12 +27,12 @@ body {
 }
 
 .wrap {
-  padding:100px 0;
+  padding:40px 0;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 1470px;
+  max-width: 1320px;
   padding: 0 15px;
   width: 100%;
 }
@@ -40,8 +40,8 @@ body {
 .register {
   display: flex;
   box-shadow: 0px 2px 10px rgb(0 0 0 / 35%);
-  min-height: 997px;
-  max-height: 1002px;
+  min-height: 830px;
+  max-height: 830px;
 }
 
 /* .register__banner, .register__form {
@@ -52,12 +52,23 @@ body {
   background-image: url("../img/bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: contain;
-  /* #width: 100%; */
+  background-size: cover;
   width: 53%;
+  padding: 35px 40px;
 }
 
 .register .register__form {
   background-color: var(--color-form);
   width: 47%;
+  padding: 30px 80px;
+}
+
+.register .register_logo-svg {
+  width:150px;
+  height: fit-content;
+
+}
+
+.register_logo-svg path {
+  fill: ---color-form;
 }
