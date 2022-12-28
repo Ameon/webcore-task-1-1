@@ -1,0 +1,63 @@
+:root {
+  --color-bg: #EFF6FF;
+  --color-text: #2A4A5C;
+  --color-btn-fb: #255A9B;
+  --color-btn-in: #0076B6;
+  --color-primary: #3698fb;
+  --color-gray1: #7b8a92;
+  --color-gray2: #96a5b1;
+  --color-gray3: #afafaf;
+  --color-silver: #eeeeee;
+  --color-form: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  height: 100%;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: #2A4A5C;
+}
+
+.wrap {
+  padding:100px 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1470px;
+  padding: 0 15px;
+  width: 100%;
+}
+
+.register {
+  display: flex;
+  box-shadow: 0px 2px 10px rgb(0 0 0 / 35%);
+  min-height: 997px;
+  max-height: 1002px;
+}
+
+/* .register__banner, .register__form {
+  height: 100%;
+} */
+
+.register .register__banner {
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  /* #width: 100%; */
+  width: 53%;
+}
+
+.register .register__form {
+  background-color: var(--color-form);
+  width: 47%;
+}
